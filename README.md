@@ -69,6 +69,11 @@ Fallback 节点
 
 Agent Tool 插件层
 
-📁 项目结构
+⚙️ 快速开始
+pip install -r requirements.txt
+
+python main.py
+
+
 
 
