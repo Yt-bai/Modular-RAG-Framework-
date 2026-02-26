@@ -24,16 +24,23 @@
 提供一个结构清晰、可扩展、可对比不同 LLM 效果的 RAG 框架模板。
 
 🧱 技术栈（Tech Stack）
+
 🔹 框架层
-组件	说明
+
 LangChain	LLM 抽象接口 & Prompt 管理
+
 LangGraph	有状态流程编排（Stateful Workflow）
+
 Python 3.12	运行环境
+
 🔹 检索层（Retrieval Layer）
-组件	说明
-Chroma	本地持久化向量数据库
-RecursiveCharacterTextSplitter	文档分块
-Embeddings (可插拔)	支持 SimpleEmbedding / 真实Embedding
+
+Chroma，本地持久化向量数据库
+
+RecursiveCharacterTextSplitter，文档分块
+
+Embeddings (可插拔)，	支持 SimpleEmbedding / 真实Embedding
+
 🔹 生成层（Generation Layer）
 
 支持多种 LLM：
@@ -61,3 +68,7 @@ Evaluation 节点
 Fallback 节点
 
 Agent Tool 插件层
+
+📁 项目结构
+
+
